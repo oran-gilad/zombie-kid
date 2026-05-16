@@ -1,0 +1,15 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.log
+logs/
+publish/
+secrets.json
+appsettings.*.json
+!config/settings.json
+.env
+.env.*

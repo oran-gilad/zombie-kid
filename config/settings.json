@@ -1,0 +1,26 @@
+{
+  "dailyLimit": "00:02:00",
+  "pollIntervalSeconds": 5,
+  "almostOverMinutes": 1,
+  "processNames": [
+    "notepad.exe",
+    "notepad++.exe"
+  ],
+  "dataDirectory": "C:\\Users\\oran\\OneDrive\\Documents\\zombie-kid\\data",
+  "gitSync": {
+    "enabled": true,
+    "repositoryDirectory": "C:\\Users\\oran\\OneDrive\\Documents\\zombie-kid",
+    "syncIntervalMinutes": 10
+  },
+  "email": {
+    "enabled": false,
+    "smtpHost": "smtp.example.com",
+    "smtpPort": 587,
+    "enableSsl": true,
+    "username": "",
+    "password": "",
+    "from": "zombie-kid@example.com",
+    "recipients": [],
+    "summaryEmailTimes": ["17:00", "21:00"]
+  }
+}

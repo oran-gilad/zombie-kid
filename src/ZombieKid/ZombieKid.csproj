@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ZombieKid</AssemblyName>
+    <RootNamespace>ZombieKid</RootNamespace>
+    <AutoPublishDir>C:\Users\oran\OneDrive\Documents\zombie-kid\publish\</AutoPublishDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\config\settings.json" Link="config\settings.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <Target Name="AutoPublishOnReleaseBuild"
+          AfterTargets="Build"
+          Condition="'$(Configuration)' == 'Release' and '$(DesignTimeBuild)' != 'true' and '$(IsPublishing)' != 'true'">
+    <Message Importance="high" Text="Auto-publishing ZombieKid to $(AutoPublishDir)" />
+    <MSBuild Projects="$(MSBuildProjectFullPath)"
+             Targets="Publish"
+             Properties="Configuration=$(Configuration);PublishDir=$(AutoPublishDir);NoBuild=true;IsPublishing=true" />
+  </Target>
+</Project>
