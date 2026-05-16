@@ -52,7 +52,7 @@ async function loadDashboard() {
     todayLimit.textContent = field(current, "limit", "Limit") ?? "00:00:00";
     todayRemaining.textContent = field(current, "remaining", "Remaining") ?? "00:00:00";
     const updated = field(current, "lastUpdatedLocal", "LastUpdatedLocal");
-    lastUpdated.textContent = updated ? `Updated ${new Date(updated).toLocaleString()}` : "";
+    renderLastUpdated(updated);
 
     tbody.innerHTML = "";
     for (const day of lastSeven) {
@@ -97,6 +97,22 @@ async function loadIndex() {
   }
 
   throw new Error(errors.join("; "));
+}
+
+function renderLastUpdated(updated) {
+  lastUpdated.classList.remove("fresh", "stale");
+
+  if (!updated) {
+    lastUpdated.textContent = "";
+    return;
+  }
+
+  const updatedDate = new Date(updated);
+  const ageMs = Date.now() - updatedDate.getTime();
+  const isFresh = Number.isFinite(ageMs) && ageMs <= 60 * 60 * 1000;
+
+  lastUpdated.textContent = `Updated ${updatedDate.toLocaleString()}`;
+  lastUpdated.classList.add(isFresh ? "fresh" : "stale");
 }
 
 function field(source, camelName, pascalName) {

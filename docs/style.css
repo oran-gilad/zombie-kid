@@ -102,6 +102,16 @@ h2 { font-size: 20px; }
   text-align: right;
 }
 
+#last-updated.fresh {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+#last-updated.stale {
+  color: var(--warn);
+  font-weight: 700;
+}
+
 .table-wrap { overflow-x: auto; }
 
 table {
