@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZombieKid Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">ZombieKid</p>
+        <h1>Gaming Activity</h1>
+      </div>
+      <div class="status" id="status">Loading</div>
+    </header>
+
+    <section class="summary-grid" aria-label="Today summary">
+      <article>
+        <span>Today</span>
+        <strong id="today-total">00:00:00</strong>
+      </article>
+      <article>
+        <span>Limit</span>
+        <strong id="today-limit">00:00:00</strong>
+      </article>
+      <article>
+        <span>Remaining</span>
+        <strong id="today-remaining">00:00:00</strong>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="section-heading">
+        <h2>Last 7 Days</h2>
+        <span id="last-updated"></span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Total Time</th>
+              <th>Limit</th>
+              <th>Remaining</th>
+              <th>Per-process breakdown</th>
+            </tr>
+          </thead>
+          <tbody id="activity-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

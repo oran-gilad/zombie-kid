@@ -1,0 +1,20 @@
+{
+  "Date": "2026-05-16",
+  "LastUpdatedLocal": "2026-05-16T13:20:29.6984814\u002B03:00",
+  "Limit": "00:02:00",
+  "TotalTime": "00:00:05",
+  "Remaining": "00:01:55",
+  "TotalSeconds": 5,
+  "LimitSeconds": 120,
+  "RemainingSeconds": 115,
+  "AlmostOverNotified": false,
+  "ThresholdEmailSent": false,
+  "SummaryEmailsSent": {},
+  "Processes": {
+    "notepad\u002B\u002B.exe": {
+      "Time": "00:00:05",
+      "Seconds": 5
+    }
+  },
+  "Events": []
+}
