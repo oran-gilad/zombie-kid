@@ -1,6 +1,6 @@
 {
   "Date": "2026-05-16",
-  "LastUpdatedLocal": "2026-05-16T14:17:18.6965741\u002B03:00",
+  "LastUpdatedLocal": "2026-05-16T14:18:19.1966349\u002B03:00",
   "Limit": "00:04:00",
   "TotalTime": "00:04:20",
   "Remaining": "00:00:00",
@@ -354,6 +354,30 @@
       "Processes": [
         "notepad\u002B\u002B.exe"
       ]
+    },
+    {
+      "TimeLocal": "2026-05-16T14:18:02.1166168\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:18:07.8045402\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:18:13.4828801\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:18:19.1966248\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
     }
   ]
 }
