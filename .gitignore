@@ -8,6 +8,7 @@
 *.log
 logs/
 publish/
+deploy/
 secrets.json
 appsettings.*.json
 !config/settings.json
