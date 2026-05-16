@@ -12,6 +12,14 @@
     "repositoryDirectory": "C:\\Users\\oran\\OneDrive\\Documents\\zombie-kid",
     "syncIntervalMinutes": 10
   },
+  "githubApiSync": {
+    "enabled": false,
+    "owner": "oran-gilad",
+    "repo": "zombie-kid",
+    "branch": "master",
+    "token": "",
+    "syncIntervalMinutes": 10
+  },
   "email": {
     "enabled": false,
     "smtpHost": "smtp.example.com",

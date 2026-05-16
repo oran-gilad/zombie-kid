@@ -84,3 +84,29 @@ git push
 ```
 
 If there are no `data` or `docs` changes, it skips committing and does not fail. Authentication should be handled by your local Git/GitHub setup. Do not store GitHub tokens, email passwords, or credentials in this repo.
+
+## GitHub API Sync Without Git
+
+For a simple deployment on another Windows machine, publish ZombieKid as a self-contained app and enable `githubApiSync` in the deployed `config/settings.json`. This mode uploads the daily JSON files directly to GitHub through the GitHub REST API, so the child machine does not need Git installed or authenticated.
+
+Create a fine-grained GitHub token with access only to this repository and only the `Contents: Read and write` permission. Put that token only in the deployed machine's local `config/settings.json`; do not commit it.
+
+Example deployed config:
+
+```json
+"gitSync": {
+  "enabled": false,
+  "repositoryDirectory": "",
+  "syncIntervalMinutes": 10
+},
+"githubApiSync": {
+  "enabled": true,
+  "owner": "oran-gilad",
+  "repo": "zombie-kid",
+  "branch": "master",
+  "token": "PASTE_FINE_GRAINED_TOKEN_ON_DEPLOYED_MACHINE_ONLY",
+  "syncIntervalMinutes": 10
+}
+```
+
+The API sync uploads each `data/*.json` file both to `data/` and to `docs/data/` so GitHub Pages can read the dashboard data.

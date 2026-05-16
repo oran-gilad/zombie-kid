@@ -10,6 +10,7 @@ public sealed class AppSettings
     public List<string> ProcessNames { get; set; } = ["notepad.exe", "notepad++.exe"];
     public string DataDirectory { get; set; } = @"C:\Users\oran\OneDrive\Documents\zombie-kid\data";
     public GitSyncSettings GitSync { get; set; } = new();
+    public GitHubApiSyncSettings GitHubApiSync { get; set; } = new();
     public EmailSettings Email { get; set; } = new();
 }
 
@@ -17,6 +18,16 @@ public sealed class GitSyncSettings
 {
     public bool Enabled { get; set; } = true;
     public string RepositoryDirectory { get; set; } = @"C:\Users\oran\OneDrive\Documents\zombie-kid";
+    public int SyncIntervalMinutes { get; set; } = 10;
+}
+
+public sealed class GitHubApiSyncSettings
+{
+    public bool Enabled { get; set; } = false;
+    public string Owner { get; set; } = "oran-gilad";
+    public string Repo { get; set; } = "zombie-kid";
+    public string Branch { get; set; } = "master";
+    public string Token { get; set; } = "";
     public int SyncIntervalMinutes { get; set; } = 10;
 }
 

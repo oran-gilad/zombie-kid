@@ -8,6 +8,7 @@ public sealed class ActivityMonitor
     private readonly ActivityStore _store;
     private readonly EmailNotifier _emailNotifier;
     private readonly GitSyncService _gitSyncService;
+    private readonly GitHubApiSyncService _gitHubApiSyncService;
     private readonly NotifyIcon _notifyIcon;
     private readonly CancellationTokenSource _cancellation = new();
     private DailyActivity _activity;
@@ -20,6 +21,7 @@ public sealed class ActivityMonitor
         _store = new ActivityStore(settings.DataDirectory);
         _emailNotifier = new EmailNotifier(settings.Email);
         _gitSyncService = new GitSyncService(settings.GitSync);
+        _gitHubApiSyncService = new GitHubApiSyncService(settings.GitHubApiSync, settings.DataDirectory);
         Limit = ParseLimit(settings.DailyLimit);
         _activity = _store.LoadToday(Limit);
         _activityDate = DateOnly.FromDateTime(DateTime.Now);
@@ -45,6 +47,7 @@ public sealed class ActivityMonitor
                 await MaybeNotifyAlmostOverAsync(cancellationToken);
                 await MaybeEnforceLimitAsync(cancellationToken);
                 await MaybeSendSummariesAsync(cancellationToken);
+                await _gitHubApiSyncService.TrySyncAsync(cancellationToken);
                 await _gitSyncService.TrySyncAsync(cancellationToken);
             }
             catch (OperationCanceledException)
@@ -107,6 +110,7 @@ public sealed class ActivityMonitor
             var message = $"Playing limit almost over ({_settings.AlmostOverMinutes} minutes more)";
             ShowBalloon("ZombieKid", message, ToolTipIcon.Warning);
             _store.AddEvent(_activity, "almost-over", message, null, Limit);
+            await _gitHubApiSyncService.TrySyncAsync(cancellationToken, force: true);
             await _gitSyncService.TrySyncAsync(cancellationToken);
         }
     }
@@ -141,6 +145,8 @@ public sealed class ActivityMonitor
                 _store.AddEvent(_activity, "email-error", ex.Message, null, Limit);
             }
         }
+
+        await _gitHubApiSyncService.TrySyncAsync(cancellationToken, force: true);
     }
 
     private List<string> CloseConfiguredProcesses()

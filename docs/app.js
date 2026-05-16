@@ -19,7 +19,7 @@ function formatProcesses(processes = {}) {
   if (entries.length === 0) return "-";
   return entries
     .sort(([a], [b]) => a.localeCompare(b))
-    .map(([name, value]) => `${name}: ${value.time ?? "00:00:00"}`)
+    .map(([name, value]) => `${name}: ${field(value, "time", "Time") ?? "00:00:00"}`)
     .join("; ");
 }
 
@@ -44,24 +44,25 @@ async function loadDashboard() {
       return response.json();
     }));
 
-    const validDays = days.filter(Boolean).sort((a, b) => String(a.date).localeCompare(String(b.date)));
+    const validDays = days.filter(Boolean).sort((a, b) => String(dayDate(a)).localeCompare(String(dayDate(b))));
     const lastSeven = validDays.slice(-7).reverse();
-    const current = validDays.find((day) => day.date === todayKey()) ?? emptyDay(todayKey());
+    const current = validDays.find((day) => dayDate(day) === todayKey()) ?? emptyDay(todayKey());
 
-    todayTotal.textContent = current.totalTime ?? "00:00:00";
-    todayLimit.textContent = current.limit ?? "00:00:00";
-    todayRemaining.textContent = current.remaining ?? "00:00:00";
-    lastUpdated.textContent = current.lastUpdatedLocal ? `Updated ${new Date(current.lastUpdatedLocal).toLocaleString()}` : "";
+    todayTotal.textContent = field(current, "totalTime", "TotalTime") ?? "00:00:00";
+    todayLimit.textContent = field(current, "limit", "Limit") ?? "00:00:00";
+    todayRemaining.textContent = field(current, "remaining", "Remaining") ?? "00:00:00";
+    const updated = field(current, "lastUpdatedLocal", "LastUpdatedLocal");
+    lastUpdated.textContent = updated ? `Updated ${new Date(updated).toLocaleString()}` : "";
 
     tbody.innerHTML = "";
     for (const day of lastSeven) {
       const row = document.createElement("tr");
       row.innerHTML = `
-        <td>${day.date ?? "-"}</td>
-        <td>${day.totalTime ?? "00:00:00"}</td>
-        <td>${day.limit ?? "00:00:00"}</td>
-        <td>${day.remaining ?? "00:00:00"}</td>
-        <td>${formatProcesses(day.processes)}</td>
+        <td>${dayDate(day) ?? "-"}</td>
+        <td>${field(day, "totalTime", "TotalTime") ?? "00:00:00"}</td>
+        <td>${field(day, "limit", "Limit") ?? "00:00:00"}</td>
+        <td>${field(day, "remaining", "Remaining") ?? "00:00:00"}</td>
+        <td>${formatProcesses(field(day, "processes", "Processes"))}</td>
       `;
       tbody.appendChild(row);
     }
@@ -96,6 +97,15 @@ async function loadIndex() {
   }
 
   throw new Error(errors.join("; "));
+}
+
+function field(source, camelName, pascalName) {
+  if (!source) return undefined;
+  return source[camelName] ?? source[pascalName];
+}
+
+function dayDate(day) {
+  return field(day, "date", "Date");
 }
 
 loadDashboard();
