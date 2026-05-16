@@ -1,6 +1,6 @@
 {
   "Date": "2026-05-16",
-  "LastUpdatedLocal": "2026-05-16T14:09:12.4794883\u002B03:00",
+  "LastUpdatedLocal": "2026-05-16T14:10:15.1145552\u002B03:00",
   "Limit": "00:04:00",
   "TotalTime": "00:04:10",
   "Remaining": "00:00:00",
@@ -62,6 +62,30 @@
       "Processes": [
         "notepad\u002B\u002B.exe"
       ]
+    },
+    {
+      "TimeLocal": "2026-05-16T14:10:00.0685915\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:10:05.0780729\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:10:10.0953326\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:10:15.1145494\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
     }
   ]
 }
