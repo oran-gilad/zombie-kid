@@ -1,19 +1,19 @@
 {
   "Date": "2026-05-16",
-  "LastUpdatedLocal": "2026-05-16T13:36:38.7918366\u002B03:00",
-  "Limit": "00:02:00",
-  "TotalTime": "00:02:00",
-  "Remaining": "00:00:00",
-  "TotalSeconds": 120,
-  "LimitSeconds": 120,
-  "RemainingSeconds": 0,
+  "LastUpdatedLocal": "2026-05-16T13:55:09.3776837\u002B03:00",
+  "Limit": "00:04:00",
+  "TotalTime": "00:02:10",
+  "Remaining": "00:01:50",
+  "TotalSeconds": 130,
+  "LimitSeconds": 240,
+  "RemainingSeconds": 110,
   "AlmostOverNotified": true,
   "ThresholdEmailSent": true,
   "SummaryEmailsSent": {},
   "Processes": {
     "notepad\u002B\u002B.exe": {
-      "Time": "00:02:00",
-      "Seconds": 120
+      "Time": "00:02:10",
+      "Seconds": 130
     }
   },
   "Events": [
@@ -25,6 +25,14 @@
     },
     {
       "TimeLocal": "2026-05-16T13:22:25.1185748\u002B03:00",
+      "Type": "limit-reached",
+      "Message": "Daily playing limit reached. Configured game processes were closed.",
+      "Processes": [
+        "notepad\u002B\u002B.exe"
+      ]
+    },
+    {
+      "TimeLocal": "2026-05-16T13:37:14.6937364\u002B03:00",
       "Type": "limit-reached",
       "Message": "Daily playing limit reached. Configured game processes were closed.",
       "Processes": [
