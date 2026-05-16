@@ -4,6 +4,7 @@ const todayTotal = document.querySelector("#today-total");
 const todayLimit = document.querySelector("#today-limit");
 const todayRemaining = document.querySelector("#today-remaining");
 const lastUpdated = document.querySelector("#last-updated");
+const dataRoots = ["data", "../data"];
 
 function todayKey() {
   const now = new Date();
@@ -34,13 +35,11 @@ function emptyDay(date) {
 
 async function loadDashboard() {
   try {
-    const indexResponse = await fetch("../data/index.json", { cache: "no-store" });
-    if (!indexResponse.ok) throw new Error(`Could not load index.json (${indexResponse.status})`);
-    const index = await indexResponse.json();
+    const { root, index } = await loadIndex();
     const files = Array.isArray(index.files) ? index.files : [];
 
     const days = await Promise.all(files.map(async (file) => {
-      const response = await fetch(`../data/${file}`, { cache: "no-store" });
+      const response = await fetch(`${root}/${file}`, { cache: "no-store" });
       if (!response.ok) return null;
       return response.json();
     }));
@@ -78,6 +77,25 @@ async function loadDashboard() {
     statusEl.textContent = "Load failed";
     tbody.innerHTML = `<tr><td colspan="5" class="empty">${error.message}</td></tr>`;
   }
+}
+
+async function loadIndex() {
+  const errors = [];
+
+  for (const root of dataRoots) {
+    try {
+      const response = await fetch(`${root}/index.json`, { cache: "no-store" });
+      if (response.ok) {
+        return { root, index: await response.json() };
+      }
+
+      errors.push(`${root}/index.json returned ${response.status}`);
+    } catch (error) {
+      errors.push(`${root}/index.json failed: ${error.message}`);
+    }
+  }
+
+  throw new Error(errors.join("; "));
 }
 
 loadDashboard();
