@@ -43,6 +43,7 @@ public sealed class ActivityMonitor
                 var runningProcesses = GetRunningConfiguredProcesses();
                 var pollSeconds = Math.Max(1, _settings.PollIntervalSeconds);
                 _store.AddSeconds(_activity, runningProcesses, runningProcesses.Count > 0 ? pollSeconds : 0, Limit);
+                UpdateTrayTooltip(runningProcesses.Count > 0);
 
                 await MaybeNotifyAlmostOverAsync(cancellationToken);
                 await MaybeEnforceLimitAsync(cancellationToken);
@@ -212,6 +213,13 @@ public sealed class ActivityMonitor
         _notifyIcon.BalloonTipText = message;
         _notifyIcon.BalloonTipIcon = icon;
         _notifyIcon.ShowBalloonTip(5000);
+    }
+
+    private void UpdateTrayTooltip(bool isPlaying)
+    {
+        var status = isPlaying ? "playing" : "idle";
+        var text = $"ZombieKid: {_activity.Remaining} left ({status})";
+        _notifyIcon.Text = text.Length <= 63 ? text : text[..63];
     }
 
     private static TimeSpan ParseLimit(string value)
