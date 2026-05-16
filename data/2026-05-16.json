@@ -1,10 +1,10 @@
 {
   "Date": "2026-05-16",
-  "LastUpdatedLocal": "2026-05-16T14:11:18.7227397\u002B03:00",
+  "LastUpdatedLocal": "2026-05-16T14:12:25.1933094\u002B03:00",
   "Limit": "00:04:00",
-  "TotalTime": "00:04:10",
+  "TotalTime": "00:04:15",
   "Remaining": "00:00:00",
-  "TotalSeconds": 250,
+  "TotalSeconds": 255,
   "LimitSeconds": 240,
   "RemainingSeconds": 0,
   "AlmostOverNotified": true,
@@ -12,8 +12,8 @@
   "SummaryEmailsSent": {},
   "Processes": {
     "notepad\u002B\u002B.exe": {
-      "Time": "00:04:10",
-      "Seconds": 250
+      "Time": "00:04:15",
+      "Seconds": 255
     }
   },
   "Events": [
@@ -158,6 +158,44 @@
       "Type": "email-error",
       "Message": "The specified string is not in the form required for an e-mail address.",
       "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:11:26.0719133\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:11:31.0903253\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:11:36.1098011\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:11:41.1250145\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:11:46.1372529\u002B03:00",
+      "Type": "email-error",
+      "Message": "The specified string is not in the form required for an e-mail address.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-16T14:12:25.1932647\u002B03:00",
+      "Type": "limit-reached",
+      "Message": "Daily playing limit reached. Configured game processes were closed.",
+      "Processes": [
+        "notepad\u002B\u002B.exe"
+      ]
     }
   ]
 }
