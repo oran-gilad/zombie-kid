@@ -1,19 +1,19 @@
 {
   "Date": "2026-05-27",
-  "LastUpdatedLocal": "2026-05-27T15:06:23.1283092\u002B03:00",
+  "LastUpdatedLocal": "2026-05-27T15:11:41.8958915\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "00:41:00",
-  "Remaining": "02:19:00",
-  "TotalSeconds": 2460,
+  "TotalTime": "00:44:00",
+  "Remaining": "02:16:00",
+  "TotalSeconds": 2640,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 8340,
+  "RemainingSeconds": 8160,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "00:41:00",
-      "Seconds": 2460
+      "Time": "00:44:00",
+      "Seconds": 2640
     }
   },
   "Events": [
@@ -337,6 +337,36 @@
     },
     {
       "TimeLocal": "2026-05-27T15:00:55.5254203\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T15:06:28.6900446\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T15:07:32.0911470\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T15:08:35.8206498\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T15:09:38.9766809\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T15:10:41.8762953\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
       "Processes": []
