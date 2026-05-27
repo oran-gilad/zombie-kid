@@ -1,19 +1,19 @@
 {
   "Date": "2026-05-27",
-  "LastUpdatedLocal": "2026-05-27T14:45:40.2395584\u002B03:00",
+  "LastUpdatedLocal": "2026-05-27T14:50:59.7721499\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "00:22:00",
-  "Remaining": "02:38:00",
-  "TotalSeconds": 1320,
+  "TotalTime": "00:27:00",
+  "Remaining": "02:33:00",
+  "TotalSeconds": 1620,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 9480,
+  "RemainingSeconds": 9180,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "00:22:00",
-      "Seconds": 1320
+      "Time": "00:27:00",
+      "Seconds": 1620
     }
   },
   "Events": [
@@ -205,6 +205,60 @@
     },
     {
       "TimeLocal": "2026-05-27T14:45:40.2395536\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:46:46.5340249\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:46:49.5913951\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:47:50.3204187\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:47:52.6656137\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:48:53.3908279\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:48:55.8749525\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:49:56.6118407\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:49:59.0245980\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T14:50:59.7721445\u002B03:00",
       "Type": "email-error",
       "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
