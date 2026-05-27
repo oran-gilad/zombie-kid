@@ -1,6 +1,6 @@
 {
   "Date": "2026-05-27",
-  "LastUpdatedLocal": "2026-05-27T15:34:55.0483813\u002B03:00",
+  "LastUpdatedLocal": "2026-05-27T15:37:03.7383120\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "00:44:00",
   "Remaining": "02:16:00",
@@ -391,6 +391,12 @@
     },
     {
       "TimeLocal": "2026-05-27T15:19:28.6873607\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-05-27T15:36:03.7173630\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
       "Processes": []
