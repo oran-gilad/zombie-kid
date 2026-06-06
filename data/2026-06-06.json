@@ -1,0 +1,28 @@
+{
+  "Date": "2026-06-06",
+  "LastUpdatedLocal": "2026-06-06T17:53:26.3999431\u002B03:00",
+  "Limit": "03:00:00",
+  "TotalTime": "00:00:00",
+  "Remaining": "03:00:00",
+  "TotalSeconds": 0,
+  "LimitSeconds": 10800,
+  "RemainingSeconds": 10800,
+  "AlmostOverNotified": false,
+  "ThresholdEmailSent": false,
+  "SummaryEmailsSent": {},
+  "Processes": {},
+  "Events": [
+    {
+      "TimeLocal": "2026-06-06T17:51:26.3861049\u002B03:00",
+      "Type": "error",
+      "Message": "No such host is known. (api.github.com:443)",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-06T17:52:26.3897411\u002B03:00",
+      "Type": "error",
+      "Message": "No such host is known. (api.github.com:443)",
+      "Processes": []
+    }
+  ]
+}
