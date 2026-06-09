@@ -1,19 +1,19 @@
 {
   "Date": "2026-06-09",
-  "LastUpdatedLocal": "2026-06-09T16:38:35.1001899\u002B03:00",
+  "LastUpdatedLocal": "2026-06-09T16:39:47.1366058\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:54:00",
-  "Remaining": "00:06:00",
-  "TotalSeconds": 10440,
+  "TotalTime": "02:55:00",
+  "Remaining": "00:05:00",
+  "TotalSeconds": 10500,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 360,
-  "AlmostOverNotified": false,
+  "RemainingSeconds": 300,
+  "AlmostOverNotified": true,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:54:00",
-      "Seconds": 10440
+      "Time": "02:55:00",
+      "Seconds": 10500
     }
   },
   "Events": [
@@ -231,6 +231,12 @@
       "TimeLocal": "2026-06-09T14:59:46.5258479\u002B03:00",
       "Type": "email-error",
       "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-09T16:39:47.1365950\u002B03:00",
+      "Type": "almost-over",
+      "Message": "Playing limit almost over (5 minutes more)",
       "Processes": []
     }
   ]
