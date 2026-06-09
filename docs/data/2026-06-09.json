@@ -1,6 +1,6 @@
 {
   "Date": "2026-06-09",
-  "LastUpdatedLocal": "2026-06-09T20:59:13.9123879\u002B03:00",
+  "LastUpdatedLocal": "2026-06-09T21:00:26.0242099\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "03:00:00",
   "Remaining": "00:00:00",
@@ -257,6 +257,12 @@
       "TimeLocal": "2026-06-09T17:29:09.1595427\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 504 (Gateway Timeout).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-09T21:00:26.0242059\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
     }
   ]
