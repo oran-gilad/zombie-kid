@@ -1,19 +1,19 @@
 {
   "Date": "2026-06-10",
-  "LastUpdatedLocal": "2026-06-10T14:27:12.7530238\u002B03:00",
+  "LastUpdatedLocal": "2026-06-10T14:28:25.4949474\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "01:56:00",
-  "Remaining": "01:04:00",
-  "TotalSeconds": 6960,
+  "TotalTime": "01:57:00",
+  "Remaining": "01:03:00",
+  "TotalSeconds": 7020,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 3840,
+  "RemainingSeconds": 3780,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "01:56:00",
-      "Seconds": 6960
+      "Time": "01:57:00",
+      "Seconds": 7020
     }
   },
   "Events": [
@@ -61,6 +61,12 @@
     },
     {
       "TimeLocal": "2026-06-10T14:27:12.7530174\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-10T14:28:25.4949384\u002B03:00",
       "Type": "email-error",
       "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
