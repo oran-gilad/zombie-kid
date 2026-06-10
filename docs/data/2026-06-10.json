@@ -1,6 +1,6 @@
 {
   "Date": "2026-06-10",
-  "LastUpdatedLocal": "2026-06-10T18:20:33.4316393\u002B03:00",
+  "LastUpdatedLocal": "2026-06-10T18:25:29.7562751\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "03:00:00",
   "Remaining": "00:00:00",
@@ -273,6 +273,24 @@
     },
     {
       "TimeLocal": "2026-06-10T18:18:15.0490935\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-10T18:21:56.5604912\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-10T18:23:22.8861892\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-10T18:24:29.7447626\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
       "Processes": []
