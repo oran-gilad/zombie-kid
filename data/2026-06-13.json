@@ -1,19 +1,19 @@
 {
   "Date": "2026-06-13",
-  "LastUpdatedLocal": "2026-06-13T12:34:57.3748099\u002B03:00",
+  "LastUpdatedLocal": "2026-06-13T12:36:08.9962624\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:54:00",
-  "Remaining": "00:06:00",
-  "TotalSeconds": 10440,
+  "TotalTime": "02:55:00",
+  "Remaining": "00:05:00",
+  "TotalSeconds": 10500,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 360,
-  "AlmostOverNotified": false,
+  "RemainingSeconds": 300,
+  "AlmostOverNotified": true,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:54:00",
-      "Seconds": 10440
+      "Time": "02:55:00",
+      "Seconds": 10500
     }
   },
   "Events": [
@@ -21,6 +21,12 @@
       "TimeLocal": "2026-06-13T09:33:58.6222655\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-13T12:36:08.9962523\u002B03:00",
+      "Type": "almost-over",
+      "Message": "Playing limit almost over (5 minutes more)",
       "Processes": []
     }
   ]
