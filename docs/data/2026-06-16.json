@@ -1,19 +1,19 @@
 {
   "Date": "2026-06-16",
-  "LastUpdatedLocal": "2026-06-16T16:01:37.5818744\u002B03:00",
+  "LastUpdatedLocal": "2026-06-16T16:03:56.3467532\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "01:00:00",
-  "Remaining": "02:00:00",
-  "TotalSeconds": 3600,
+  "TotalTime": "01:02:00",
+  "Remaining": "01:58:00",
+  "TotalSeconds": 3720,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 7200,
+  "RemainingSeconds": 7080,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "01:00:00",
-      "Seconds": 3600
+      "Time": "01:02:00",
+      "Seconds": 3720
     }
   },
   "Events": [
@@ -81,6 +81,12 @@
       "TimeLocal": "2026-06-16T14:59:26.9384966\u002B03:00",
       "Type": "email-error",
       "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-16T16:02:56.3348876\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 401 (Unauthorized).",
       "Processes": []
     }
   ]
