@@ -1,19 +1,19 @@
 {
   "Date": "2026-06-18",
-  "LastUpdatedLocal": "2026-06-18T14:03:12.1728217\u002B03:00",
+  "LastUpdatedLocal": "2026-06-18T14:05:38.4739111\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "00:55:00",
-  "Remaining": "02:05:00",
-  "TotalSeconds": 3300,
+  "TotalTime": "00:57:00",
+  "Remaining": "02:03:00",
+  "TotalSeconds": 3420,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 7500,
+  "RemainingSeconds": 7380,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "00:55:00",
-      "Seconds": 3300
+      "Time": "00:57:00",
+      "Seconds": 3420
     }
   },
   "Events": [
@@ -21,6 +21,12 @@
       "TimeLocal": "2026-06-18T11:05:10.4724841\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-18T14:04:38.4639872\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 422 (Unprocessable Entity).",
       "Processes": []
     }
   ]
