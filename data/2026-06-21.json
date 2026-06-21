@@ -1,20 +1,27 @@
 {
   "Date": "2026-06-21",
-  "LastUpdatedLocal": "2026-06-21T13:25:54.2484400\u002B03:00",
+  "LastUpdatedLocal": "2026-06-21T13:27:07.9247015\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:54:00",
-  "Remaining": "00:06:00",
-  "TotalSeconds": 10440,
+  "TotalTime": "02:55:00",
+  "Remaining": "00:05:00",
+  "TotalSeconds": 10500,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 360,
-  "AlmostOverNotified": false,
+  "RemainingSeconds": 300,
+  "AlmostOverNotified": true,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:54:00",
-      "Seconds": 10440
+      "Time": "02:55:00",
+      "Seconds": 10500
     }
   },
-  "Events": []
+  "Events": [
+    {
+      "TimeLocal": "2026-06-21T13:27:07.9246305\u002B03:00",
+      "Type": "almost-over",
+      "Message": "Playing limit almost over (5 minutes more)",
+      "Processes": []
+    }
+  ]
 }
