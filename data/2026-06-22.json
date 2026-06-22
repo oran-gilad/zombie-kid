@@ -1,19 +1,19 @@
 {
   "Date": "2026-06-22",
-  "LastUpdatedLocal": "2026-06-22T20:15:13.7595294\u002B03:00",
+  "LastUpdatedLocal": "2026-06-22T20:17:36.8631839\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "01:13:00",
-  "Remaining": "01:47:00",
-  "TotalSeconds": 4380,
+  "TotalTime": "01:15:00",
+  "Remaining": "01:45:00",
+  "TotalSeconds": 4500,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 6420,
+  "RemainingSeconds": 6300,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "01:13:00",
-      "Seconds": 4380
+      "Time": "01:15:00",
+      "Seconds": 4500
     }
   },
   "Events": [
@@ -27,6 +27,12 @@
       "TimeLocal": "2026-06-22T19:10:34.9553431\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-22T20:16:36.8483294\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
       "Processes": []
     }
   ]
