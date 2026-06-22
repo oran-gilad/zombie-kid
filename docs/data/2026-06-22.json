@@ -1,19 +1,19 @@
 {
   "Date": "2026-06-22",
-  "LastUpdatedLocal": "2026-06-22T20:58:15.3326173\u002B03:00",
+  "LastUpdatedLocal": "2026-06-22T21:00:42.3043364\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "01:47:00",
-  "Remaining": "01:13:00",
-  "TotalSeconds": 6420,
+  "TotalTime": "01:49:00",
+  "Remaining": "01:11:00",
+  "TotalSeconds": 6540,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 4380,
+  "RemainingSeconds": 4260,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "01:47:00",
-      "Seconds": 6420
+      "Time": "01:49:00",
+      "Seconds": 6540
     }
   },
   "Events": [
@@ -33,6 +33,18 @@
       "TimeLocal": "2026-06-22T20:16:36.8483294\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-22T20:59:41.4931817\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-22T21:00:42.3043249\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
     }
   ]
