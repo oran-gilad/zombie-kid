@@ -1,6 +1,6 @@
 {
   "Date": "2026-06-22",
-  "LastUpdatedLocal": "2026-06-22T19:09:17.5603886\u002B03:00",
+  "LastUpdatedLocal": "2026-06-22T19:11:34.9737446\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "00:23:00",
   "Remaining": "02:37:00",
@@ -19,6 +19,12 @@
   "Events": [
     {
       "TimeLocal": "2026-06-22T18:59:14.2106286\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-22T19:10:34.9553431\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 401 (Unauthorized).",
       "Processes": []
