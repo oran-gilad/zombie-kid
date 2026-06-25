@@ -1,6 +1,6 @@
 {
   "Date": "2026-06-25",
-  "LastUpdatedLocal": "2026-06-25T19:18:35.0227650\u002B03:00",
+  "LastUpdatedLocal": "2026-06-25T20:12:48.0323008\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "01:22:00",
   "Remaining": "01:38:00",
@@ -177,6 +177,12 @@
       "TimeLocal": "2026-06-25T18:54:02.0567461\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 422 (Unprocessable Entity).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-25T20:11:48.0226075\u002B03:00",
+      "Type": "error",
+      "Message": "Error while copying content to a stream.",
       "Processes": []
     }
   ]
