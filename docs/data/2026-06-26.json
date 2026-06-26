@@ -1,0 +1,22 @@
+{
+  "Date": "2026-06-26",
+  "LastUpdatedLocal": "2026-06-26T07:49:35.3299493\u002B03:00",
+  "Limit": "03:00:00",
+  "TotalTime": "00:00:00",
+  "Remaining": "03:00:00",
+  "TotalSeconds": 0,
+  "LimitSeconds": 10800,
+  "RemainingSeconds": 10800,
+  "AlmostOverNotified": false,
+  "ThresholdEmailSent": false,
+  "SummaryEmailsSent": {},
+  "Processes": {},
+  "Events": [
+    {
+      "TimeLocal": "2026-06-26T07:48:35.3165026\u002B03:00",
+      "Type": "error",
+      "Message": "An error occurred while sending the request.",
+      "Processes": []
+    }
+  ]
+}
