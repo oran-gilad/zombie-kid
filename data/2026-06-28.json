@@ -1,6 +1,6 @@
 {
   "Date": "2026-06-28",
-  "LastUpdatedLocal": "2026-06-28T14:42:59.7252866\u002B03:00",
+  "LastUpdatedLocal": "2026-06-28T14:44:18.2649212\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "00:00:00",
   "Remaining": "03:00:00",
@@ -68,6 +68,12 @@
     },
     {
       "TimeLocal": "2026-06-28T14:42:59.7252825\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-28T14:44:18.2649165\u002B03:00",
       "Type": "email-error",
       "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
