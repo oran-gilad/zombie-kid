@@ -1,19 +1,19 @@
 {
   "Date": "2026-06-30",
-  "LastUpdatedLocal": "2026-06-30T16:25:57.3701180\u002B03:00",
+  "LastUpdatedLocal": "2026-06-30T16:28:25.5022555\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "00:24:00",
-  "Remaining": "02:36:00",
-  "TotalSeconds": 1440,
+  "TotalTime": "00:26:00",
+  "Remaining": "02:34:00",
+  "TotalSeconds": 1560,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 9360,
+  "RemainingSeconds": 9240,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "00:24:00",
-      "Seconds": 1440
+      "Time": "00:26:00",
+      "Seconds": 1560
     }
   },
   "Events": [
@@ -99,6 +99,12 @@
       "TimeLocal": "2026-06-30T16:24:57.3531729\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 504 (Gateway Timeout).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-06-30T16:27:25.4793925\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 401 (Unauthorized).",
       "Processes": []
     }
   ]
