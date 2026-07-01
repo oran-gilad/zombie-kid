@@ -1,6 +1,6 @@
 {
   "Date": "2026-07-01",
-  "LastUpdatedLocal": "2026-07-01T11:06:18.4930476\u002B03:00",
+  "LastUpdatedLocal": "2026-07-01T14:49:53.5127497\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "01:12:00",
   "Remaining": "01:48:00",
@@ -16,5 +16,24 @@
       "Seconds": 4320
     }
   },
-  "Events": []
+  "Events": [
+    {
+      "TimeLocal": "2026-07-01T11:06:36.7773539\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-01T14:48:52.8057194\u002B03:00",
+      "Type": "error",
+      "Message": "An error occurred while sending the request.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-01T14:49:53.5127453\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    }
+  ]
 }
