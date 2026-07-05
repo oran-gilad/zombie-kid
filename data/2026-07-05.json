@@ -1,19 +1,19 @@
 {
   "Date": "2026-07-05",
-  "LastUpdatedLocal": "2026-07-05T20:29:43.8199595\u002B03:00",
+  "LastUpdatedLocal": "2026-07-05T20:31:06.9623686\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:54:00",
-  "Remaining": "00:06:00",
-  "TotalSeconds": 10440,
+  "TotalTime": "02:55:00",
+  "Remaining": "00:05:00",
+  "TotalSeconds": 10500,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 360,
-  "AlmostOverNotified": false,
+  "RemainingSeconds": 300,
+  "AlmostOverNotified": true,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:54:00",
-      "Seconds": 10440
+      "Time": "02:55:00",
+      "Seconds": 10500
     }
   },
   "Events": [
@@ -201,6 +201,12 @@
       "TimeLocal": "2026-07-05T19:30:30.8210922\u002B03:00",
       "Type": "error",
       "Message": "An error occurred while sending the request.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-05T20:31:06.9623529\u002B03:00",
+      "Type": "almost-over",
+      "Message": "Playing limit almost over (5 minutes more)",
       "Processes": []
     }
   ]
