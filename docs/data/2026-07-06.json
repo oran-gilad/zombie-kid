@@ -1,6 +1,6 @@
 {
   "Date": "2026-07-06",
-  "LastUpdatedLocal": "2026-07-06T13:22:49.1885259\u002B03:00",
+  "LastUpdatedLocal": "2026-07-06T13:25:24.7928850\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "00:09:00",
   "Remaining": "02:51:00",
@@ -16,5 +16,12 @@
       "Seconds": 540
     }
   },
-  "Events": []
+  "Events": [
+    {
+      "TimeLocal": "2026-07-06T13:24:24.7749963\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 422 (Unprocessable Entity).",
+      "Processes": []
+    }
+  ]
 }
