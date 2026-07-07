@@ -1,20 +1,27 @@
 {
   "Date": "2026-07-07",
-  "LastUpdatedLocal": "2026-07-07T13:05:56.0949657\u002B03:00",
+  "LastUpdatedLocal": "2026-07-07T13:08:47.9789292\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "00:51:00",
-  "Remaining": "02:09:00",
-  "TotalSeconds": 3060,
+  "TotalTime": "00:53:00",
+  "Remaining": "02:07:00",
+  "TotalSeconds": 3180,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 7740,
+  "RemainingSeconds": 7620,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "00:51:00",
-      "Seconds": 3060
+      "Time": "00:53:00",
+      "Seconds": 3180
     }
   },
-  "Events": []
+  "Events": [
+    {
+      "TimeLocal": "2026-07-07T13:07:47.9526481\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    }
+  ]
 }
