@@ -1,6 +1,6 @@
 {
   "Date": "2026-07-07",
-  "LastUpdatedLocal": "2026-07-07T14:16:54.0568433\u002B03:00",
+  "LastUpdatedLocal": "2026-07-07T14:18:23.1205561\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "01:38:00",
   "Remaining": "01:22:00",
@@ -21,6 +21,12 @@
       "TimeLocal": "2026-07-07T13:07:47.9526481\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-07T14:18:23.1205293\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
     }
   ]
