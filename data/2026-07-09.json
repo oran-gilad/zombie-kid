@@ -1,19 +1,19 @@
 {
   "Date": "2026-07-09",
-  "LastUpdatedLocal": "2026-07-09T14:09:44.8263530\u002B03:00",
+  "LastUpdatedLocal": "2026-07-09T14:11:12.1233379\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:42:00",
-  "Remaining": "00:18:00",
-  "TotalSeconds": 9720,
+  "TotalTime": "02:43:00",
+  "Remaining": "00:17:00",
+  "TotalSeconds": 9780,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 1080,
+  "RemainingSeconds": 1020,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:42:00",
-      "Seconds": 9720
+      "Time": "02:43:00",
+      "Seconds": 9780
     }
   },
   "Events": [
