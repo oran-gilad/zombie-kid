@@ -1,19 +1,19 @@
 {
   "Date": "2026-07-10",
-  "LastUpdatedLocal": "2026-07-10T19:35:51.6107394\u002B03:00",
+  "LastUpdatedLocal": "2026-07-10T19:38:40.0208798\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:54:00",
-  "Remaining": "00:06:00",
-  "TotalSeconds": 10440,
+  "TotalTime": "02:56:00",
+  "Remaining": "00:04:00",
+  "TotalSeconds": 10560,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 360,
-  "AlmostOverNotified": false,
+  "RemainingSeconds": 240,
+  "AlmostOverNotified": true,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:54:00",
-      "Seconds": 10440
+      "Time": "02:56:00",
+      "Seconds": 10560
     }
   },
   "Events": [
@@ -1489,6 +1489,18 @@
     },
     {
       "TimeLocal": "2026-07-10T19:16:37.8005213\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T19:37:22.9691171\u002B03:00",
+      "Type": "almost-over",
+      "Message": "Playing limit almost over (5 minutes more)",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T19:37:40.0093520\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
       "Processes": []
