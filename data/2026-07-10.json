@@ -1,6 +1,6 @@
 {
   "Date": "2026-07-10",
-  "LastUpdatedLocal": "2026-07-10T12:09:41.3987605\u002B03:00",
+  "LastUpdatedLocal": "2026-07-10T12:15:04.1616053\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "00:14:00",
   "Remaining": "02:46:00",
@@ -247,6 +247,18 @@
     },
     {
       "TimeLocal": "2026-07-10T12:08:41.3841746\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T12:12:34.5790001\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 401 (Unauthorized).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T12:14:04.1513277\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
       "Processes": []
