@@ -1,19 +1,19 @@
 {
   "Date": "2026-07-10",
-  "LastUpdatedLocal": "2026-07-10T16:12:57.6549821\u002B03:00",
+  "LastUpdatedLocal": "2026-07-10T16:18:32.6426581\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "00:44:00",
-  "Remaining": "02:16:00",
-  "TotalSeconds": 2640,
+  "TotalTime": "00:48:00",
+  "Remaining": "02:12:00",
+  "TotalSeconds": 2880,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 8160,
+  "RemainingSeconds": 7920,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "00:44:00",
-      "Seconds": 2640
+      "Time": "00:48:00",
+      "Seconds": 2880
     }
   },
   "Events": [
@@ -1309,6 +1309,24 @@
     },
     {
       "TimeLocal": "2026-07-10T16:11:57.6418672\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T16:15:00.5065728\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T16:16:11.6887115\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T16:17:32.6205681\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
       "Processes": []
