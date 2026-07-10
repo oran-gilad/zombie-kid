@@ -1,19 +1,19 @@
 {
   "Date": "2026-07-10",
-  "LastUpdatedLocal": "2026-07-10T18:54:39.6413302\u002B03:00",
+  "LastUpdatedLocal": "2026-07-10T19:06:38.7832727\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:30:00",
-  "Remaining": "00:30:00",
-  "TotalSeconds": 9000,
+  "TotalTime": "02:38:00",
+  "Remaining": "00:22:00",
+  "TotalSeconds": 9480,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 1800,
+  "RemainingSeconds": 1320,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:30:00",
-      "Seconds": 9000
+      "Time": "02:38:00",
+      "Seconds": 9480
     }
   },
   "Events": [
@@ -1423,6 +1423,48 @@
     },
     {
       "TimeLocal": "2026-07-10T18:53:39.6230068\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T18:58:15.4720654\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T18:59:42.0641964\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T19:00:47.7101685\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T19:02:02.2843839\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T19:03:22.8169187\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T19:04:25.2735823\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T19:05:38.7613839\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
       "Processes": []
