@@ -1,6 +1,6 @@
 {
   "Date": "2026-07-10",
-  "LastUpdatedLocal": "2026-07-10T14:19:53.0852458\u002B03:00",
+  "LastUpdatedLocal": "2026-07-10T14:34:34.9074721\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "00:19:00",
   "Remaining": "02:41:00",
@@ -721,6 +721,120 @@
     },
     {
       "TimeLocal": "2026-07-10T14:19:53.0852362\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:22:06.0480138\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:22:06.8826276\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:23:07.5920460\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:23:42.1097884\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:24:42.8835461\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:25:00.9312017\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:26:01.6527249\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:26:34.4519590\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:27:35.1619729\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:28:12.4797008\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:29:13.1997384\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:29:56.7918916\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:30:57.5272929\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:30:58.7102871\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:31:59.4177030\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:32:05.0446492\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:33:06.6463588\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:33:34.1664803\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 502 (Bad Gateway).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-10T14:34:34.9074610\u002B03:00",
       "Type": "email-error",
       "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
