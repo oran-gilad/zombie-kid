@@ -1,10 +1,10 @@
 {
   "Date": "2026-07-18",
-  "LastUpdatedLocal": "2026-07-18T20:41:17.3817039\u002B03:00",
+  "LastUpdatedLocal": "2026-07-18T20:42:43.1181108\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "03:00:00",
+  "TotalTime": "03:01:00",
   "Remaining": "00:00:00",
-  "TotalSeconds": 10800,
+  "TotalSeconds": 10860,
   "LimitSeconds": 10800,
   "RemainingSeconds": 0,
   "AlmostOverNotified": true,
@@ -12,8 +12,8 @@
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "03:00:00",
-      "Seconds": 10800
+      "Time": "03:01:00",
+      "Seconds": 10860
     }
   },
   "Events": [
@@ -45,6 +45,20 @@
     },
     {
       "TimeLocal": "2026-07-18T20:39:53.3472740\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-07-18T20:42:42.3985121\u002B03:00",
+      "Type": "limit-reached",
+      "Message": "Daily playing limit reached. Configured game processes were closed.",
+      "Processes": [
+        "Marvel-Win64-Shipping.exe"
+      ]
+    },
+    {
+      "TimeLocal": "2026-07-18T20:42:43.1181062\u002B03:00",
       "Type": "email-error",
       "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
