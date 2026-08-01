@@ -1,6 +1,6 @@
 {
   "Date": "2026-08-01",
-  "LastUpdatedLocal": "2026-08-01T19:06:36.8512328\u002B03:00",
+  "LastUpdatedLocal": "2026-08-01T19:09:38.1266724\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "02:20:00",
   "Remaining": "00:40:00",
@@ -16,5 +16,12 @@
       "Seconds": 8400
     }
   },
-  "Events": []
+  "Events": [
+    {
+      "TimeLocal": "2026-08-01T19:08:38.1068516\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 500 (Internal Server Error).",
+      "Processes": []
+    }
+  ]
 }
