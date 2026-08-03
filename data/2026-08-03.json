@@ -1,6 +1,6 @@
 {
   "Date": "2026-08-03",
-  "LastUpdatedLocal": "2026-08-03T00:58:26.4918418\u002B03:00",
+  "LastUpdatedLocal": "2026-08-03T10:22:49.7046051\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "00:34:00",
   "Remaining": "02:26:00",
@@ -16,5 +16,12 @@
       "Seconds": 2040
     }
   },
-  "Events": []
+  "Events": [
+    {
+      "TimeLocal": "2026-08-03T10:21:49.6938587\u002B03:00",
+      "Type": "error",
+      "Message": "An error occurred while sending the request.",
+      "Processes": []
+    }
+  ]
 }
