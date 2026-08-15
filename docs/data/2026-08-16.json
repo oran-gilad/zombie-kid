@@ -1,20 +1,27 @@
 {
   "Date": "2026-08-16",
-  "LastUpdatedLocal": "2026-08-16T00:36:07.8036086\u002B03:00",
+  "LastUpdatedLocal": "2026-08-16T00:38:45.2288952\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "00:24:00",
-  "Remaining": "02:36:00",
-  "TotalSeconds": 1440,
+  "TotalTime": "00:26:00",
+  "Remaining": "02:34:00",
+  "TotalSeconds": 1560,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 9360,
+  "RemainingSeconds": 9240,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "00:24:00",
-      "Seconds": 1440
+      "Time": "00:26:00",
+      "Seconds": 1560
     }
   },
-  "Events": []
+  "Events": [
+    {
+      "TimeLocal": "2026-08-16T00:37:45.2076153\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    }
+  ]
 }
