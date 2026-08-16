@@ -1,6 +1,6 @@
 {
   "Date": "2026-08-16",
-  "LastUpdatedLocal": "2026-08-16T12:13:23.5704989\u002B03:00",
+  "LastUpdatedLocal": "2026-08-16T12:17:29.0139119\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "02:36:00",
   "Remaining": "00:24:00",
@@ -69,6 +69,18 @@
       "TimeLocal": "2026-08-16T11:15:50.8079916\u002B03:00",
       "Type": "error",
       "Message": "An error occurred while sending the request.",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-16T12:15:28.7389620\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-16T12:16:28.9899404\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 403 (Forbidden).",
       "Processes": []
     }
   ]
