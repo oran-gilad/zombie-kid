@@ -1,19 +1,19 @@
 {
   "Date": "2026-08-16",
-  "LastUpdatedLocal": "2026-08-16T14:14:44.6462186\u002B03:00",
+  "LastUpdatedLocal": "2026-08-16T14:18:49.6121478\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:47:00",
-  "Remaining": "00:13:00",
-  "TotalSeconds": 10020,
+  "TotalTime": "02:50:00",
+  "Remaining": "00:10:00",
+  "TotalSeconds": 10200,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 780,
+  "RemainingSeconds": 600,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:47:00",
-      "Seconds": 10020
+      "Time": "02:50:00",
+      "Seconds": 10200
     }
   },
   "Events": [
@@ -93,6 +93,24 @@
       "TimeLocal": "2026-08-16T13:17:16.0736472\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-16T14:16:47.5903238\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-16T14:17:48.8739427\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-16T14:18:49.6121405\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
     }
   ]
