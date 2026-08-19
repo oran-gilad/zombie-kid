@@ -1,19 +1,19 @@
 {
   "Date": "2026-08-17",
-  "LastUpdatedLocal": "2026-08-17T21:14:54.8732667\u002B03:00",
+  "LastUpdatedLocal": "2026-08-17T21:19:55.2764054\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "02:05:00",
-  "Remaining": "00:55:00",
-  "TotalSeconds": 7500,
+  "TotalTime": "02:07:00",
+  "Remaining": "00:53:00",
+  "TotalSeconds": 7620,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 3300,
+  "RemainingSeconds": 3180,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "02:05:00",
-      "Seconds": 7500
+      "Time": "02:07:00",
+      "Seconds": 7620
     }
   },
   "Events": [
@@ -397,6 +397,24 @@
     },
     {
       "TimeLocal": "2026-08-17T21:14:54.8732616\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-17T21:17:29.6023085\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-17T21:18:54.5310903\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 503 (Service Unavailable).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-17T21:19:55.2763999\u002B03:00",
       "Type": "email-error",
       "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
