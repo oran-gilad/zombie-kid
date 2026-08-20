@@ -1,6 +1,6 @@
 {
   "Date": "2026-08-20",
-  "LastUpdatedLocal": "2026-08-20T13:42:49.4009230\u002B03:00",
+  "LastUpdatedLocal": "2026-08-20T21:42:45.2232763\u002B03:00",
   "Limit": "03:00:00",
   "TotalTime": "02:18:00",
   "Remaining": "00:42:00",
@@ -87,6 +87,12 @@
       "TimeLocal": "2026-08-20T13:11:15.7668840\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-20T21:42:45.2231901\u002B03:00",
+      "Type": "email-error",
+      "Message": "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to",
       "Processes": []
     }
   ]
