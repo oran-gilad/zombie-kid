@@ -1,19 +1,19 @@
 {
   "Date": "2026-08-20",
-  "LastUpdatedLocal": "2026-08-20T12:07:13.5888917\u002B03:00",
+  "LastUpdatedLocal": "2026-08-20T12:11:58.6661335\u002B03:00",
   "Limit": "03:00:00",
-  "TotalTime": "01:24:00",
-  "Remaining": "01:36:00",
-  "TotalSeconds": 5040,
+  "TotalTime": "01:28:00",
+  "Remaining": "01:32:00",
+  "TotalSeconds": 5280,
   "LimitSeconds": 10800,
-  "RemainingSeconds": 5760,
+  "RemainingSeconds": 5520,
   "AlmostOverNotified": false,
   "ThresholdEmailSent": false,
   "SummaryEmailsSent": {},
   "Processes": {
     "Marvel-Win64-Shipping.exe": {
-      "Time": "01:24:00",
-      "Seconds": 5040
+      "Time": "01:28:00",
+      "Seconds": 5280
     }
   },
   "Events": [
@@ -55,6 +55,24 @@
     },
     {
       "TimeLocal": "2026-08-20T11:10:00.3962772\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-20T12:08:58.1842613\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-20T12:09:58.4135294\u002B03:00",
+      "Type": "error",
+      "Message": "Response status code does not indicate success: 403 (Forbidden).",
+      "Processes": []
+    },
+    {
+      "TimeLocal": "2026-08-20T12:10:58.6462321\u002B03:00",
       "Type": "error",
       "Message": "Response status code does not indicate success: 403 (Forbidden).",
       "Processes": []
